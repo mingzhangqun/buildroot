@@ -1,0 +1,5 @@
+config BR2_PACKAGE_RETERMINAL
+	bool "reTerminal"
+	depends on BR2_LINUX_KERNEL
+	help
+		Drivers for reTerminal

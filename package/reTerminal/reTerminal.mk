@@ -1,0 +1,8 @@
+#KERNEL_MODULE_SITE = $(KERNEL_MODULE_PKGDIR)
+RETERMINAL_VERSION = 1.0
+RETERMINAL_SITE = $(TOPDIR)/package/reTerminal/mipi_dsi
+RETERMINAL_SITE_METHOD = local
+RETERMINAL_LICENSE = GPL-2.0
+#RETERMINAL_LICENSE_FILES = LICENSE
+$(eval $(kernel-module))
+$(eval $(generic-package))
